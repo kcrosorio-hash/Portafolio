@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: monospace;
+}
+
+.Contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hoja {
+    width: 500px;
+    height: 650px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+}
